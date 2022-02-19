@@ -10,8 +10,11 @@ Java 11 ou superior - https://www.oracle.com/br/java/technologies/javase/jdk11-a
 .\mvnw spring-boot:run
 ```
 Após iniciar o servidor três endpoint serão disponibilizados, a saber:
+
 GET http://localhost:8080/escada/{degr} -> 1º Questão
+
 POST http://localhost:8080/password -> 2º Questão
+
 GET http://localhost:8080/anagram -> 3º Questão
 
 onde o {degr} é o tamanho da escada.
